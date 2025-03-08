@@ -1,0 +1,1 @@
+[32mINFO    [0m WebDriverClient:DrivenClass.py:42 Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.

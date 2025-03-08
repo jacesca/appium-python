@@ -1,0 +1,7 @@
+[32mINFO    [0m BasePage:BasePage.py:19 Launching App
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_31_09.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `some text` send to Element with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `screenshots/AdminValue_2024_12_29_02_31_12.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `text` and locator value `SUBMIT`.
+[32mINFO    [0m BasePage:BasePage.py:96 Element clicked with locator type `text` and locator value `SUBMIT`.

@@ -1,0 +1,5 @@
+2024-12-24 00:22:57 Tuesday: CRITICAL: This is a critical msg!
+2024-12-24 00:22:57 Tuesday: ERROR: This is an error msg!
+2024-12-24 00:22:57 Tuesday: WARNING: This is a warning msg!
+2024-12-24 00:22:57 Tuesday: INFO: This is an info msg!
+2024-12-24 00:22:57 Tuesday: DEBUG: This is a debug msg

@@ -1,0 +1,274 @@
+2024-12-29 02:26:11 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:26:14 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_26_11.png`
+2024-12-29 02:26:14 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:26:15 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:26:16 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Contact Us form`.
+2024-12-29 02:26:16 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Contact Us form` is displayed.
+2024-12-29 02:26:16 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:26:18 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_26_16.png`
+2024-12-29 02:26:19 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:26:20 Sunday - BasePage - INFO: Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:26:21 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:26:23 Sunday - BasePage - INFO: Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:26:23 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:26:25 Sunday - BasePage - INFO: Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:26:25 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:26:27 Sunday - BasePage - INFO: Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:26:29 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/contactus_2024_12_29_02_26_27.png`
+2024-12-29 02:26:29 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:26:31 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:27:41 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:27:43 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_27_41.png`
+2024-12-29 02:27:44 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Login`.
+2024-12-29 02:27:45 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Login`.
+2024-12-29 02:27:46 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Login Page`.
+2024-12-29 02:27:46 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Login Page` is displayed.
+2024-12-29 02:27:46 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:27:48 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_27_46.png`
+2024-12-29 02:27:48 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `3`.
+2024-12-29 02:27:50 Sunday - BasePage - INFO: Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+2024-12-29 02:27:51 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:27:53 Sunday - BasePage - INFO: Text `VALID_LOGIN_PWD` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:27:55 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/login_2024_12_29_02_27_53.png`
+2024-12-29 02:27:55 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:27:57 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:27:57 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Wrong Credentials`.
+2024-12-29 02:27:57 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Wrong Credentials` is displayed.
+2024-12-29 02:27:57 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:27:59 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_27_57.png`
+2024-12-29 02:27:59 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `3`.
+2024-12-29 02:28:01 Sunday - BasePage - INFO: Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+2024-12-29 02:28:02 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:28:04 Sunday - BasePage - INFO: Text `admin123` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:28:06 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/login_2024_12_29_02_28_04.png`
+2024-12-29 02:28:07 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:28:08 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:28:08 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:28:10 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_28_08.png`
+2024-12-29 02:28:35 Sunday - BasePage - INFO: Element not found. Locator value: `Wrong Credentials`, Locator type: `text`, Original error: `Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/mnt/sauce/appium/appium-v2.11.0/appium_home/linux/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/mnt/sauce/appium/appium-v2.11.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/mnt/sauce/appium/appium-v2.11.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)`
+2024-12-29 02:28:37 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Wrong Credentials` is not displayed.
+2024-12-29 02:28:37 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Admin`.
+2024-12-29 02:28:37 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Enter Admin` is displayed.
+2024-12-29 02:28:37 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:28:39 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_28_37.png`
+2024-12-29 02:28:39 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+2024-12-29 02:28:41 Sunday - BasePage - INFO: Text `some text` send to Element with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+2024-12-29 02:28:43 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/AdminValue_2024_12_29_02_28_41.png`
+2024-12-29 02:28:43 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:28:44 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:28:44 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:28:46 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_28_44.png`
+2024-12-29 02:30:18 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:30:20 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_30_18.png`
+2024-12-29 02:30:20 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Login`.
+2024-12-29 02:30:21 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Login`.
+2024-12-29 02:30:22 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Login Page`.
+2024-12-29 02:30:22 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Login Page` is displayed.
+2024-12-29 02:30:22 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:30:24 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_30_22.png`
+2024-12-29 02:30:24 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `3`.
+2024-12-29 02:30:26 Sunday - BasePage - INFO: Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+2024-12-29 02:30:26 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:30:28 Sunday - BasePage - INFO: Text `VALID_LOGIN_PWD` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:30:30 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/login_2024_12_29_02_30_28.png`
+2024-12-29 02:30:30 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:30:31 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:30:31 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Wrong Credentials`.
+2024-12-29 02:30:31 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Wrong Credentials` is displayed.
+2024-12-29 02:30:31 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:30:33 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_30_31.png`
+2024-12-29 02:30:33 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `3`.
+2024-12-29 02:30:36 Sunday - BasePage - INFO: Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+2024-12-29 02:30:36 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:30:38 Sunday - BasePage - INFO: Text `admin123` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:30:39 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/login_2024_12_29_02_30_38.png`
+2024-12-29 02:30:40 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:30:41 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 02:30:41 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:30:42 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_30_41.png`
+2024-12-29 02:31:07 Sunday - BasePage - INFO: Element not found. Locator value: `Wrong Credentials`, Locator type: `text`, Original error: `Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/mnt/sauce/appium/appium-v2.11.0/appium_home/linux/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/mnt/sauce/appium/appium-v2.11.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/mnt/sauce/appium/appium-v2.11.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)`
+2024-12-29 02:31:09 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Wrong Credentials` is not displayed.
+2024-12-29 02:31:09 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Admin`.
+2024-12-29 02:31:09 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Enter Admin` is displayed.
+2024-12-29 02:31:09 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:31:10 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_31_09.png`
+2024-12-29 02:31:11 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+2024-12-29 02:31:12 Sunday - BasePage - INFO: Text `some text` send to Element with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+2024-12-29 02:31:14 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/AdminValue_2024_12_29_02_31_12.png`
+2024-12-29 02:31:14 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:31:15 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:31:15 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:31:17 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_31_15.png`
+2024-12-29 02:32:42 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:32:44 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_32_42.png`
+2024-12-29 02:32:44 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:32:45 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:32:47 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Contact Us form`.
+2024-12-29 02:32:47 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Contact Us form` is displayed.
+2024-12-29 02:32:47 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:32:48 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_32_47.png`
+2024-12-29 02:32:49 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:32:51 Sunday - BasePage - INFO: Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:32:51 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:32:53 Sunday - BasePage - INFO: Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:32:53 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:32:55 Sunday - BasePage - INFO: Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:32:55 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:32:57 Sunday - BasePage - INFO: Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:32:58 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/contactus_2024_12_29_02_32_57.png`
+2024-12-29 02:32:58 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:33:00 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:48:51 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:48:53 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_48_51.png`
+2024-12-29 02:48:54 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:48:55 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:48:56 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Contact Us form`.
+2024-12-29 02:48:56 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Contact Us form` is displayed.
+2024-12-29 02:48:56 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:48:58 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_48_56.png`
+2024-12-29 02:48:58 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:49:00 Sunday - BasePage - INFO: Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:49:01 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:49:03 Sunday - BasePage - INFO: Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:49:03 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:49:05 Sunday - BasePage - INFO: Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:49:06 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:49:08 Sunday - BasePage - INFO: Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:49:10 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/contactus_2024_12_29_02_49_08.png`
+2024-12-29 02:49:10 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:49:11 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:51:48 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:51:50 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_51_48.png`
+2024-12-29 02:51:50 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:51:51 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:51:52 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Contact Us form`.
+2024-12-29 02:51:52 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Contact Us form` is displayed.
+2024-12-29 02:51:52 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:51:54 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_51_52.png`
+2024-12-29 02:51:54 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:51:56 Sunday - BasePage - INFO: Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:51:56 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:51:58 Sunday - BasePage - INFO: Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:51:58 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:52:00 Sunday - BasePage - INFO: Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:52:00 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:52:02 Sunday - BasePage - INFO: Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:52:03 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/contactus_2024_12_29_02_52_02.png`
+2024-12-29 02:52:03 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:52:05 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:54:18 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:54:20 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_54_18.png`
+2024-12-29 02:54:21 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:54:21 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:54:23 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Contact Us form`.
+2024-12-29 02:54:23 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Contact Us form` is displayed.
+2024-12-29 02:54:23 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:54:25 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_54_23.png`
+2024-12-29 02:54:25 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:54:27 Sunday - BasePage - INFO: Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:54:27 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:54:29 Sunday - BasePage - INFO: Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:54:30 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:54:31 Sunday - BasePage - INFO: Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:54:32 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:54:33 Sunday - BasePage - INFO: Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:54:35 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/contactus_2024_12_29_02_54_33.png`
+2024-12-29 02:54:35 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:54:36 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:57:23 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:57:25 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_57_23.png`
+2024-12-29 02:57:25 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:57:26 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 02:57:27 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Contact Us form`.
+2024-12-29 02:57:27 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Contact Us form` is displayed.
+2024-12-29 02:57:27 Sunday - BasePage - INFO: Launching App
+2024-12-29 02:57:29 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_57_27.png`
+2024-12-29 02:57:29 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:57:31 Sunday - BasePage - INFO: Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+2024-12-29 02:57:31 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:57:33 Sunday - BasePage - INFO: Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+2024-12-29 02:57:33 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:57:35 Sunday - BasePage - INFO: Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+2024-12-29 02:57:35 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 02:57:37 Sunday - BasePage - INFO: Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+2024-12-29 02:57:38 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/contactus_2024_12_29_02_57_37.png`
+2024-12-29 02:57:39 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 02:57:40 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 03:00:11 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:00:13 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_00_11.png`
+2024-12-29 03:00:14 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 03:00:15 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+2024-12-29 03:00:16 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Contact Us form`.
+2024-12-29 03:00:16 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Contact Us form` is displayed.
+2024-12-29 03:00:16 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:00:18 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_00_16.png`
+2024-12-29 03:00:18 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Name`.
+2024-12-29 03:00:20 Sunday - BasePage - INFO: Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+2024-12-29 03:00:20 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Email`.
+2024-12-29 03:00:22 Sunday - BasePage - INFO: Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+2024-12-29 03:00:22 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Address`.
+2024-12-29 03:00:24 Sunday - BasePage - INFO: Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+2024-12-29 03:00:24 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 03:00:26 Sunday - BasePage - INFO: Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+2024-12-29 03:00:28 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/contactus_2024_12_29_03_00_26.png`
+2024-12-29 03:00:28 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 03:00:29 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 03:08:37 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:08:39 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_08_37.png`
+2024-12-29 03:08:40 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Login`.
+2024-12-29 03:08:40 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Login`.
+2024-12-29 03:08:42 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Login Page`.
+2024-12-29 03:08:42 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Login Page` is displayed.
+2024-12-29 03:08:42 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:08:44 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_08_42.png`
+2024-12-29 03:08:44 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `3`.
+2024-12-29 03:08:46 Sunday - BasePage - INFO: Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+2024-12-29 03:08:46 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 03:08:48 Sunday - BasePage - INFO: Text `VALID_LOGIN_PWD` send to Element with locator type `index` and locator value `4`.
+2024-12-29 03:08:50 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/login_2024_12_29_03_08_48.png`
+2024-12-29 03:08:50 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 03:08:51 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 03:08:51 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Wrong Credentials`.
+2024-12-29 03:08:51 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Wrong Credentials` is displayed.
+2024-12-29 03:08:51 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:08:53 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_08_51.png`
+2024-12-29 03:08:53 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `3`.
+2024-12-29 03:08:55 Sunday - BasePage - INFO: Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+2024-12-29 03:08:55 Sunday - BasePage - INFO: Element found with locator type `index` and locator value `4`.
+2024-12-29 03:08:57 Sunday - BasePage - INFO: Text `admin123` send to Element with locator type `index` and locator value `4`.
+2024-12-29 03:08:59 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/login_2024_12_29_03_08_57.png`
+2024-12-29 03:08:59 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 03:09:00 Sunday - BasePage - INFO: Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+2024-12-29 03:09:00 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:09:02 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_09_00.png`
+2024-12-29 03:09:27 Sunday - BasePage - INFO: Element not found. Locator value: `Wrong Credentials`, Locator type: `text`, Original error: `Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/mnt/sauce/appium/appium-v2.11.0/appium_home/linux/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/mnt/sauce/appium/appium-v2.11.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/mnt/sauce/appium/appium-v2.11.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)`
+2024-12-29 03:09:29 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Wrong Credentials` is not displayed.
+2024-12-29 03:09:29 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `Enter Admin`.
+2024-12-29 03:09:29 Sunday - BasePage - INFO: Element with locator type `text` and locator value `Enter Admin` is displayed.
+2024-12-29 03:09:29 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:09:30 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_09_29.png`
+2024-12-29 03:09:31 Sunday - BasePage - INFO: Element found with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+2024-12-29 03:09:33 Sunday - BasePage - INFO: Text `some text` send to Element with locator type `id` and locator value `com.code2lead.kwad:id/Edt_admin`.
+2024-12-29 03:09:34 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/AdminValue_2024_12_29_03_09_33.png`
+2024-12-29 03:09:34 Sunday - BasePage - INFO: Element found with locator type `text` and locator value `SUBMIT`.
+2024-12-29 03:09:36 Sunday - BasePage - INFO: Element clicked with locator type `text` and locator value `SUBMIT`.
+2024-12-29 03:09:36 Sunday - BasePage - INFO: Launching App
+2024-12-29 03:09:38 Sunday - BasePage - INFO: Screenshot saved to path: `screenshots/launch_app_2024_12_29_03_09_36.png`

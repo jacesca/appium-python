@@ -1,0 +1,5 @@
+2024-12-24 00:23:30 Tuesday - method_two - CRITICAL: Critical msg!
+2024-12-24 00:23:30 Tuesday - method_two - ERROR: Error msg!
+2024-12-24 00:23:30 Tuesday - method_two - WARNING: Warning msg!
+2024-12-24 00:23:30 Tuesday - method_two - INFO: Info msg!
+2024-12-24 00:23:30 Tuesday - method_two - DEBUG: Debug msg

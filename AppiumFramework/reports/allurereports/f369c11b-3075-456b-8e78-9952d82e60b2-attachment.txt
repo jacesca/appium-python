@@ -1,0 +1,13 @@
+[32mINFO    [0m BasePage:BasePage.py:19 Launching App
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `AppiumFramework/screenshots//launch_app_2024_12_26_23_10_40.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `text` and locator value `Enter Name`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `Code2Lead` send to Element with locator type `text` and locator value `Enter Name`.
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `text` and locator value `Enter Email`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `Code2Lead@gmail.com` send to Element with locator type `text` and locator value `Enter Email`.
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `text` and locator value `Enter Address`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `Road st, #523, NY` send to Element with locator type `text` and locator value `Enter Address`.
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `index` and locator value `4`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `123 456 7890` send to Element with locator type `index` and locator value `4`.
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `AppiumFramework/screenshots//contactus_2024_12_26_23_10_46.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `text` and locator value `SUBMIT`.
+[32mINFO    [0m BasePage:BasePage.py:96 Element clicked with locator type `text` and locator value `SUBMIT`.

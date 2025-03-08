@@ -1,0 +1,6 @@
+[32mINFO    [0m BasePage:BasePage.py:19 Launching App
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `AppiumFramework/screenshots//launch_app_2024_12_26_23_06_46.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+[32mINFO    [0m BasePage:BasePage.py:96 Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/ContactUs`.
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `text` and locator value `Contact Us form`.
+[32mINFO    [0m BasePage:BasePage.py:132 Element with locator type `text` and locator value `Contact Us form` is displayed.

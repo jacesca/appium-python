@@ -1,0 +1,5 @@
+INFO     WebDriverClient:DrivenClass.py:28 Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+INFO     WebDriverClient:DrivenClass.py:59 WebDriver `chrome` configured!
+INFO     BaseClass:BasePage.py:73 Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+INFO     BaseClass:BasePage.py:114 Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+INFO     BaseClass:BasePage.py:133 Clicked on web element with locator type: `link_text` and locator value: `Locators`.

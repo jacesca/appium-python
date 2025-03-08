@@ -1,0 +1,70 @@
+2024-12-28 18:48:24 Saturday - <module> - INFO: Automation Started.
+2024-12-28 18:48:24 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 18:48:27 Saturday - WebDriverClient - INFO: WebDriver `chrome` configured!
+2024-12-28 18:48:29 Saturday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-28 18:48:29 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-28 18:48:30 Saturday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-28 18:48:30 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-28 18:48:30 Saturday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:48:35 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:48:36 Saturday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:48:36 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 18:48:36 Saturday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 18:48:38 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+2024-12-28 18:48:39 Saturday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+2024-12-28 18:48:39 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:48:39 Saturday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:48:39 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:48:39 Saturday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:48:44 Saturday - <module> - INFO: Automation Ended.
+2024-12-28 18:49:21 Saturday - <module> - INFO: Automation Started.
+2024-12-28 18:49:21 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 18:49:22 Saturday - WebDriverClient - INFO: WebDriver `chrome` configured!
+2024-12-28 18:49:25 Saturday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-28 18:49:25 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-28 18:49:25 Saturday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-28 18:49:25 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-28 18:49:25 Saturday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-28 18:49:30 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:49:31 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:49:32 Saturday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-28 18:49:32 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 18:49:32 Saturday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 18:49:34 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+2024-12-28 18:49:34 Saturday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+2024-12-28 18:49:34 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:49:34 Saturday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:49:34 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:49:34 Saturday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 18:49:39 Saturday - <module> - INFO: Automation Ended.

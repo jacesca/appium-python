@@ -1,0 +1,11 @@
+[32mINFO    [0m BasePage:BasePage.py:19 Launching App
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `screenshots/launch_app_2024_12_29_02_30_22.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `index` and locator value `3`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `index` and locator value `4`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `VALID_LOGIN_PWD` send to Element with locator type `index` and locator value `4`.
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `screenshots/login_2024_12_29_02_30_28.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+[32mINFO    [0m BasePage:BasePage.py:96 Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `text` and locator value `Wrong Credentials`.
+[32mINFO    [0m BasePage:BasePage.py:132 Element with locator type `text` and locator value `Wrong Credentials` is displayed.

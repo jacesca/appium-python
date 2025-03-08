@@ -1,0 +1,13 @@
+allure-behave==2.13.5
+allure-pytest==2.13.5
+allure-python-commons==2.13.5
+Appium-Python-Client==3.1.0
+behave==1.2.6
+black==24.10.0
+flake8==7.1.1
+pytest==8.3.4
+selenium==4.15.2
+PyAutoGUI==0.9.54
+pytest-ordering==0.6
+pytest-rerunfailures==15.0
+pytest-xdist==3.6.1

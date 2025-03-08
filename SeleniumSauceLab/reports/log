@@ -1,0 +1,444 @@
+2024-12-28 23:17:09 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 23:17:18 Saturday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-28 23:17:18 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-28 23:17:19 Saturday - BaseClass - ERROR: Unable to click on web element with locator type: `link_text` and locator value: `Form`. Original Error: Message: element click intercepted: Element is not clickable at point (-125, 340)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x00000001045a5ad8 chromedriver + 7105240
+1   chromedriver                        0x000000010459da7a chromedriver + 7072378
+2   chromedriver                        0x0000000103f40d80 chromedriver + 400768
+3   chromedriver                        0x0000000103f96b16 chromedriver + 752406
+4   chromedriver                        0x0000000103f94a68 chromedriver + 744040
+5   chromedriver                        0x0000000103f921b5 chromedriver + 733621
+6   chromedriver                        0x0000000103f913b2 chromedriver + 730034
+7   chromedriver                        0x0000000103f84b1d chromedriver + 678685
+8   chromedriver                        0x0000000103fb4432 chromedriver + 873522
+9   chromedriver                        0x0000000103f84458 chromedriver + 676952
+10  chromedriver                        0x0000000103fb45ee chromedriver + 873966
+11  chromedriver                        0x0000000103fd33be chromedriver + 1000382
+12  chromedriver                        0x0000000103fb41d3 chromedriver + 872915
+13  chromedriver                        0x0000000103f82762 chromedriver + 669538
+14  chromedriver                        0x0000000103f8373e chromedriver + 673598
+15  chromedriver                        0x000000010456bb60 chromedriver + 6867808
+16  chromedriver                        0x000000010456fa90 chromedriver + 6883984
+17  chromedriver                        0x000000010454d8c7 chromedriver + 6744263
+18  chromedriver                        0x000000010457051e chromedriver + 6886686
+19  chromedriver                        0x000000010453cfc4 chromedriver + 6676420
+20  chromedriver                        0x000000010458c1d8 chromedriver + 7000536
+21  chromedriver                        0x000000010458c396 chromedriver + 7000982
+22  chromedriver                        0x000000010459d658 chromedriver + 7071320
+23  libsystem_pthread.dylib             0x00007ff80b47e1d3 _pthread_start + 125
+24  libsystem_pthread.dylib             0x00007ff80b479bd3 thread_start + 15
+. Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_contactform.py, line 24 in test_cf1_displayedform>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/ContactFormPage.py, line 23 in click_on_form_menu_option>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 138 in click_on_element>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:17:46 Saturday - BaseClass - ERROR: Web element (wait approach) not found with locator type: `id` and locator value: `name`. Original Error: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001045a5ad8 chromedriver + 7105240
+1   chromedriver                        0x000000010459da7a chromedriver + 7072378
+2   chromedriver                        0x0000000103f40d80 chromedriver + 400768
+3   chromedriver                        0x0000000103f8fdc3 chromedriver + 724419
+4   chromedriver                        0x0000000103f900d1 chromedriver + 725201
+5   chromedriver                        0x0000000103fd60e4 chromedriver + 1011940
+6   chromedriver                        0x0000000103fb445d chromedriver + 873565
+7   chromedriver                        0x0000000103fd33be chromedriver + 1000382
+8   chromedriver                        0x0000000103fb41d3 chromedriver + 872915
+9   chromedriver                        0x0000000103f82762 chromedriver + 669538
+10  chromedriver                        0x0000000103f8373e chromedriver + 673598
+11  chromedriver                        0x000000010456bb60 chromedriver + 6867808
+12  chromedriver                        0x000000010456fa90 chromedriver + 6883984
+13  chromedriver                        0x000000010454d8c7 chromedriver + 6744263
+14  chromedriver                        0x000000010457051e chromedriver + 6886686
+15  chromedriver                        0x000000010453cfc4 chromedriver + 6676420
+16  chromedriver                        0x000000010458c1d8 chromedriver + 7000536
+17  chromedriver                        0x000000010458c396 chromedriver + 7000982
+18  chromedriver                        0x000000010459d658 chromedriver + 7071320
+19  libsystem_pthread.dylib             0x00007ff80b47e1d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff80b479bd3 thread_start + 15
+. Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_contactform.py, line 29 in test_cf2_fillform>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/ContactFormPage.py, line 33 in enter_name>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 149 in send_text>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 120 in wait_for_element>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:17:47 Saturday - BaseClass - ERROR: Unable to send text `Code2Lead` on web element with locator type: `id` and locator value: `name`. Original Error: . Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_contactform.py, line 29 in test_cf2_fillform>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/ContactFormPage.py, line 33 in enter_name>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 156 in send_text>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:17:53 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 23:22:29 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 23:22:39 Saturday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-28 23:22:39 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-28 23:22:40 Saturday - BaseClass - ERROR: Unable to click on web element with locator type: `link_text` and locator value: `Form`. Original Error: Message: element click intercepted: Element is not clickable at point (-125, 340)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x000000010e6f9ad8 chromedriver + 7105240
+1   chromedriver                        0x000000010e6f1a7a chromedriver + 7072378
+2   chromedriver                        0x000000010e094d80 chromedriver + 400768
+3   chromedriver                        0x000000010e0eab16 chromedriver + 752406
+4   chromedriver                        0x000000010e0e8a68 chromedriver + 744040
+5   chromedriver                        0x000000010e0e61b5 chromedriver + 733621
+6   chromedriver                        0x000000010e0e53b2 chromedriver + 730034
+7   chromedriver                        0x000000010e0d8b1d chromedriver + 678685
+8   chromedriver                        0x000000010e108432 chromedriver + 873522
+9   chromedriver                        0x000000010e0d8458 chromedriver + 676952
+10  chromedriver                        0x000000010e1085ee chromedriver + 873966
+11  chromedriver                        0x000000010e1273be chromedriver + 1000382
+12  chromedriver                        0x000000010e1081d3 chromedriver + 872915
+13  chromedriver                        0x000000010e0d6762 chromedriver + 669538
+14  chromedriver                        0x000000010e0d773e chromedriver + 673598
+15  chromedriver                        0x000000010e6bfb60 chromedriver + 6867808
+16  chromedriver                        0x000000010e6c3a90 chromedriver + 6883984
+17  chromedriver                        0x000000010e6a18c7 chromedriver + 6744263
+18  chromedriver                        0x000000010e6c451e chromedriver + 6886686
+19  chromedriver                        0x000000010e690fc4 chromedriver + 6676420
+20  chromedriver                        0x000000010e6e01d8 chromedriver + 7000536
+21  chromedriver                        0x000000010e6e0396 chromedriver + 7000982
+22  chromedriver                        0x000000010e6f1658 chromedriver + 7071320
+23  libsystem_pthread.dylib             0x00007ff8114a91d3 _pthread_start + 125
+24  libsystem_pthread.dylib             0x00007ff8114a4bd3 thread_start + 15
+. Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_contactform.py, line 24 in test_cf1_displayedform>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/ContactFormPage.py, line 23 in click_on_form_menu_option>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 138 in click_on_element>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:23:07 Saturday - BaseClass - ERROR: Web element (wait approach) not found with locator type: `id` and locator value: `name`. Original Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010e6f9ad8 chromedriver + 7105240
+1   chromedriver                        0x000000010e6f1a7a chromedriver + 7072378
+2   chromedriver                        0x000000010e094d80 chromedriver + 400768
+3   chromedriver                        0x000000010e0e3dc3 chromedriver + 724419
+4   chromedriver                        0x000000010e0e40d1 chromedriver + 725201
+5   chromedriver                        0x000000010e12a0e4 chromedriver + 1011940
+6   chromedriver                        0x000000010e10845d chromedriver + 873565
+7   chromedriver                        0x000000010e1273be chromedriver + 1000382
+8   chromedriver                        0x000000010e1081d3 chromedriver + 872915
+9   chromedriver                        0x000000010e0d6762 chromedriver + 669538
+10  chromedriver                        0x000000010e0d773e chromedriver + 673598
+11  chromedriver                        0x000000010e6bfb60 chromedriver + 6867808
+12  chromedriver                        0x000000010e6c3a90 chromedriver + 6883984
+13  chromedriver                        0x000000010e6a18c7 chromedriver + 6744263
+14  chromedriver                        0x000000010e6c451e chromedriver + 6886686
+15  chromedriver                        0x000000010e690fc4 chromedriver + 6676420
+16  chromedriver                        0x000000010e6e01d8 chromedriver + 7000536
+17  chromedriver                        0x000000010e6e0396 chromedriver + 7000982
+18  chromedriver                        0x000000010e6f1658 chromedriver + 7071320
+19  libsystem_pthread.dylib             0x00007ff8114a91d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff8114a4bd3 thread_start + 15
+. Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_contactform.py, line 29 in test_cf2_fillform>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/ContactFormPage.py, line 33 in enter_name>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 149 in send_text>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 120 in wait_for_element>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:23:08 Saturday - BaseClass - ERROR: Unable to send text `Code2Lead` on web element with locator type: `id` and locator value: `name`. Original Error: . Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_contactform.py, line 29 in test_cf2_fillform>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/ContactFormPage.py, line 33 in enter_name>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 156 in send_text>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:33:02 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 23:33:11 Saturday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-28 23:33:11 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 23:33:13 Saturday - BaseClass - ERROR: Unable to click on web element with locator type: `link_text` and locator value: `Locators`. Original Error: Message: element click intercepted: Element is not clickable at point (-125, 305)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x000000010cf7ead8 chromedriver + 7105240
+1   chromedriver                        0x000000010cf76a7a chromedriver + 7072378
+2   chromedriver                        0x000000010c919d80 chromedriver + 400768
+3   chromedriver                        0x000000010c96fb16 chromedriver + 752406
+4   chromedriver                        0x000000010c96da68 chromedriver + 744040
+5   chromedriver                        0x000000010c96b1b5 chromedriver + 733621
+6   chromedriver                        0x000000010c96a3b2 chromedriver + 730034
+7   chromedriver                        0x000000010c95db1d chromedriver + 678685
+8   chromedriver                        0x000000010c98d432 chromedriver + 873522
+9   chromedriver                        0x000000010c95d458 chromedriver + 676952
+10  chromedriver                        0x000000010c98d5ee chromedriver + 873966
+11  chromedriver                        0x000000010c9ac3be chromedriver + 1000382
+12  chromedriver                        0x000000010c98d1d3 chromedriver + 872915
+13  chromedriver                        0x000000010c95b762 chromedriver + 669538
+14  chromedriver                        0x000000010c95c73e chromedriver + 673598
+15  chromedriver                        0x000000010cf44b60 chromedriver + 6867808
+16  chromedriver                        0x000000010cf48a90 chromedriver + 6883984
+17  chromedriver                        0x000000010cf268c7 chromedriver + 6744263
+18  chromedriver                        0x000000010cf4951e chromedriver + 6886686
+19  chromedriver                        0x000000010cf15fc4 chromedriver + 6676420
+20  chromedriver                        0x000000010cf651d8 chromedriver + 7000536
+21  chromedriver                        0x000000010cf65396 chromedriver + 7000982
+22  chromedriver                        0x000000010cf76658 chromedriver + 7071320
+23  libsystem_pthread.dylib             0x00007ff803ee21d3 _pthread_start + 125
+24  libsystem_pthread.dylib             0x00007ff803eddbd3 thread_start + 15
+. Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_entertextpage.py, line 25 in test_enter1_click_on_locator_page>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/EnterTextPage.py, line 16 in click_on_locator_menu_option>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 138 in click_on_element>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:33:16 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+2024-12-28 23:33:17 Saturday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+2024-12-28 23:33:17 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:33:17 Saturday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:33:17 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:33:18 Saturday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:33:36 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 23:33:46 Saturday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-28 23:33:46 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 23:33:48 Saturday - BaseClass - ERROR: Unable to click on web element with locator type: `link_text` and locator value: `Locators`. Original Error: Message: element click intercepted: Element is not clickable at point (-125, 305)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x000000010e515ad8 chromedriver + 7105240
+1   chromedriver                        0x000000010e50da7a chromedriver + 7072378
+2   chromedriver                        0x000000010deb0d80 chromedriver + 400768
+3   chromedriver                        0x000000010df06b16 chromedriver + 752406
+4   chromedriver                        0x000000010df04a68 chromedriver + 744040
+5   chromedriver                        0x000000010df021b5 chromedriver + 733621
+6   chromedriver                        0x000000010df013b2 chromedriver + 730034
+7   chromedriver                        0x000000010def4b1d chromedriver + 678685
+8   chromedriver                        0x000000010df24432 chromedriver + 873522
+9   chromedriver                        0x000000010def4458 chromedriver + 676952
+10  chromedriver                        0x000000010df245ee chromedriver + 873966
+11  chromedriver                        0x000000010df433be chromedriver + 1000382
+12  chromedriver                        0x000000010df241d3 chromedriver + 872915
+13  chromedriver                        0x000000010def2762 chromedriver + 669538
+14  chromedriver                        0x000000010def373e chromedriver + 673598
+15  chromedriver                        0x000000010e4dbb60 chromedriver + 6867808
+16  chromedriver                        0x000000010e4dfa90 chromedriver + 6883984
+17  chromedriver                        0x000000010e4bd8c7 chromedriver + 6744263
+18  chromedriver                        0x000000010e4e051e chromedriver + 6886686
+19  chromedriver                        0x000000010e4acfc4 chromedriver + 6676420
+20  chromedriver                        0x000000010e4fc1d8 chromedriver + 7000536
+21  chromedriver                        0x000000010e4fc396 chromedriver + 7000982
+22  chromedriver                        0x000000010e50d658 chromedriver + 7071320
+23  libsystem_pthread.dylib             0x00007ff8019411d3 _pthread_start + 125
+24  libsystem_pthread.dylib             0x00007ff80193cbd3 thread_start + 15
+. Trace: [<FrameSummary file /opt/anaconda3/envs/appium/bin/pytest, line 8 in <module>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 201 in console_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/config/__init__.py, line 175 in main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 330 in pytest_cmdline_main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 283 in wrap_session>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 337 in _main>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/main.py, line 362 in pytest_runtestloop>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 113 in pytest_runtest_protocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 132 in runtestprotocol>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 241 in call_and_report>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 341 in from_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 242 in <lambda>>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_hooks.py, line 513 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_manager.py, line 120 in _hookexec>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/pluggy/_callers.py, line 103 in _multicall>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/runner.py, line 174 in pytest_runtest_call>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/site-packages/_pytest/unittest.py, line 351 in runtest>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 707 in __call__>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 651 in run>, <FrameSummary file /opt/anaconda3/envs/appium/lib/python3.13/unittest/case.py, line 606 in _callTestMethod>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/tests/test_entertextpage.py, line 25 in test_enter1_click_on_locator_page>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/pages/EnterTextPage.py, line 16 in click_on_locator_menu_option>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 138 in click_on_element>, <FrameSummary file /Users/j.escalante/Documents/Courses/Appium-Python/SeleniumSauceLab/base/BasePage.py, line 61 in _log_exception>]
+2024-12-28 23:33:51 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+2024-12-28 23:33:52 Saturday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+2024-12-28 23:33:52 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:33:52 Saturday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:33:53 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:33:53 Saturday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:58:37 Saturday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-28 23:58:47 Saturday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-28 23:58:47 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 23:58:48 Saturday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Locators`.
+2024-12-28 23:58:51 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+2024-12-28 23:58:51 Saturday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+2024-12-28 23:58:52 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:58:52 Saturday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:58:52 Saturday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-28 23:58:53 Saturday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:00:08 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:00:17 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:00:17 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:00:18 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:00:19 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:00:19 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:00:19 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:00:20 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:00:20 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:00:21 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:00:21 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:00:21 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:00:22 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:00:22 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:00:22 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:00:23 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:00:23 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:00:24 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:00:24 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:00:25 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:00:25 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:00:26 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:00:26 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:00:27 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:02:08 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:02:19 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:02:20 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:02:21 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:02:21 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:02:21 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:02:22 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:02:22 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:02:22 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:02:23 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:02:23 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:02:24 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:02:24 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:02:24 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:02:25 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:02:25 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:02:25 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:02:25 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:02:26 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:02:27 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:02:27 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:02:27 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:02:28 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:02:29 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:02:35 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:05:39 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:05:48 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:05:48 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:05:50 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:05:50 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:05:50 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:05:50 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:05:51 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:05:51 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:05:52 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:05:52 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:05:52 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:05:53 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:05:53 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:05:53 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:05:54 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:05:54 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:05:54 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:05:54 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:05:55 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:05:55 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:05:56 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:05:56 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:05:57 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:06:03 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:07:09 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:07:18 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:07:19 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:07:20 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:07:20 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:07:20 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:07:21 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:07:21 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:07:21 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:07:22 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:07:22 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:07:23 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:07:23 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:07:24 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:07:24 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:07:24 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:07:25 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:07:25 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:07:25 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:07:26 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:07:26 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:07:27 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:07:27 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:07:28 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:07:33 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:10:44 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:10:54 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:10:55 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:10:56 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:10:56 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:10:57 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:10:57 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:10:58 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:10:58 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:10:58 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:10:59 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:10:59 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:10:59 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:11:00 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:11:00 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:11:01 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:11:01 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:11:01 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:11:01 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:11:02 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:11:03 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:11:03 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:11:03 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:11:05 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:11:10 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:11:36 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:11:47 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:11:47 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+2024-12-29 00:11:48 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Locators`.
+2024-12-29 00:11:50 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+2024-12-29 00:11:51 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+2024-12-29 00:11:51 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:11:52 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:11:52 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:11:53 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:15:56 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:16:05 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:16:06 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:16:07 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:16:07 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:16:07 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:16:07 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:16:08 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:16:08 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:16:09 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:16:09 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:16:09 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:16:10 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:16:10 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:16:10 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:16:11 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:16:11 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:16:12 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:16:12 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:16:13 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:16:13 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:16:14 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:16:14 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:16:15 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:16:20 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:17:04 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:17:14 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:17:15 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:17:16 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:17:16 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:17:17 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:17:17 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:17:18 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:17:18 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:17:19 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:17:19 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:17:19 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:17:19 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:17:20 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:17:20 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:17:21 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:17:21 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:17:22 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:17:22 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:17:23 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:17:23 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:17:23 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:17:24 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:17:25 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:17:30 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:17:52 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:18:01 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:18:01 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Locators`.
+2024-12-29 00:18:02 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Locators`.
+2024-12-29 00:18:05 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+2024-12-29 00:18:05 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+2024-12-29 00:18:06 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:18:06 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:18:06 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:18:07 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `submitbutton`.
+2024-12-29 00:18:26 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:18:36 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:18:36 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:18:37 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:18:37 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:18:38 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:18:38 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:18:38 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:18:39 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:18:39 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:18:39 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:18:40 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:18:40 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:18:41 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:18:41 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:18:42 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:18:42 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:18:42 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:18:42 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:18:43 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:18:44 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:18:44 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:18:44 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:18:46 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:23:14 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.
+2024-12-29 00:23:30 Sunday - BaseClass - INFO: Web page launched with url: `http://dummypoint.com/seleniumtemplate.html`.
+2024-12-29 00:23:30 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:23:32 Sunday - BaseClass - INFO: Clicked on web element with locator type: `link_text` and locator value: `Form`.
+2024-12-29 00:23:32 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:23:32 Sunday - BaseClass - INFO: Displayed True web element with locator type: `id` and locator value: `reused_form`.
+2024-12-29 00:23:33 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `name`.
+2024-12-29 00:23:33 Sunday - BaseClass - INFO: Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+2024-12-29 00:23:34 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `email`.
+2024-12-29 00:23:34 Sunday - BaseClass - INFO: Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+2024-12-29 00:23:34 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:23:35 Sunday - BaseClass - INFO: Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+2024-12-29 00:23:35 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+2024-12-29 00:23:36 Sunday - BaseClass - INFO: Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+2024-12-29 00:23:36 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `message`.
+2024-12-29 00:23:37 Sunday - BaseClass - INFO: Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+2024-12-29 00:23:37 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:23:37 Sunday - BaseClass - INFO: Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+2024-12-29 00:23:37 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:23:38 Sunday - BaseClass - INFO: Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+2024-12-29 00:23:38 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:23:39 Sunday - BaseClass - INFO: Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:23:39 Sunday - BaseClass - INFO: Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:23:41 Sunday - BaseClass - INFO: Clicked on web element with locator type: `id` and locator value: `btnContactUs`.
+2024-12-29 00:23:46 Sunday - WebDriverClient - INFO: Initializing the webdriver with browser=`chrome` and explicit_webdriver=`False`.

@@ -1,0 +1,6 @@
+[32mINFO    [0m BaseClass:BasePage.py:114 Web element (wait approach) found with locator type: `id` and locator value: `user_input`.
+[32mINFO    [0m BaseClass:BasePage.py:151 Text `Code2Lead` send on web element with locator type: `id` and locator value: `user_input`.
+[32mINFO    [0m BaseClass:BasePage.py:114 Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+[32mINFO    [0m BaseClass:BasePage.py:209 Scrolled to web element with locator type: `id` and locator value: `submitbutton`.
+[32mINFO    [0m BaseClass:BasePage.py:114 Web element (wait approach) found with locator type: `id` and locator value: `submitbutton`.
+[32mINFO    [0m BaseClass:BasePage.py:133 Clicked on web element with locator type: `id` and locator value: `submitbutton`.

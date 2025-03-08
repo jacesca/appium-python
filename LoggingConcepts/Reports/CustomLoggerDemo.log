@@ -1,0 +1,5 @@
+2024-12-24 00:23:30 Tuesday - CustomLoggerDemo - CRITICAL: This is a critical msg!
+2024-12-24 00:23:30 Tuesday - CustomLoggerDemo - ERROR: This is an error msg!
+2024-12-24 00:23:30 Tuesday - CustomLoggerDemo - WARNING: This is a warning msg!
+2024-12-24 00:23:30 Tuesday - CustomLoggerDemo - INFO: This is an info msg!
+2024-12-24 00:23:30 Tuesday - CustomLoggerDemo - DEBUG: This is a debug msg

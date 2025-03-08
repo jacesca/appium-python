@@ -1,0 +1,18 @@
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `name`.
+[32mINFO    [0m BaseClass:BasePage.py:137 Text `Code2Lead` send on web element with locator type: `id` and locator value: `name`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `email`.
+[32mINFO    [0m BaseClass:BasePage.py:137 Text `Code2Lead@gmail.com` send on web element with locator type: `id` and locator value: `email`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+[32mINFO    [0m BaseClass:BasePage.py:121 Clicked on web element with locator type: `css_selector` and locator value: `input#g[value="female"]`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `tech`.
+[32mINFO    [0m BaseClass:BasePage.py:137 Text `Selenium Appium Python` send on web element with locator type: `id` and locator value: `tech`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `message`.
+[32mINFO    [0m BaseClass:BasePage.py:137 Text `Message to Code2Lead` send on web element with locator type: `id` and locator value: `message`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `captcha_image`.
+[32mINFO    [0m BaseClass:BasePage.py:154 Got the text `SGH456` from web element with locator type: `id` and locator value: `captcha_image`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `captcha`.
+[32mINFO    [0m BaseClass:BasePage.py:137 Text `SGH456` send on web element with locator type: `id` and locator value: `captcha`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+[32mINFO    [0m BaseClass:BasePage.py:189 Scrolled to web element with locator type: `id` and locator value: `btnContactUs`.
+[32mINFO    [0m BaseClass:BasePage.py:104 Web element (wait approach) found with locator type: `id` and locator value: `btnContactUs`.
+[32mINFO    [0m BaseClass:BasePage.py:121 Clicked on web element with locator type: `id` and locator value: `btnContactUs`.

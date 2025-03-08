@@ -1,0 +1,9 @@
+[32mINFO    [0m BasePage:BasePage.py:19 Launching App
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `AppiumFramework/screenshots//launch_app_2024_12_26_23_06_04.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `index` and locator value `3`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `admin@gmail.com` send to Element with locator type `index` and locator value `3`.
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `index` and locator value `4`.
+[32mINFO    [0m BasePage:BasePage.py:114 Text `admin123` send to Element with locator type `index` and locator value `4`.
+[32mINFO    [0m BasePage:BasePage.py:155 Screenshot saved to path: `AppiumFramework/screenshots//login_2024_12_26_23_06_07.png`
+[32mINFO    [0m BasePage:BasePage.py:77 Element found with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
+[32mINFO    [0m BasePage:BasePage.py:96 Element clicked with locator type `id` and locator value `com.code2lead.kwad:id/Btn3`.
