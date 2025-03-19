@@ -15,11 +15,11 @@ from appium.options.android import UiAutomator2Options
 from appium.options.common import AppiumOptions
 
 
-SAUCE_USERNAME = "oauth-jacesca-e66ae"
-SAUCE_ACCESSKEY = "d88ca88f-2e9c-4cd6-b676-12c9b0886f0a"
-SAUCE_ONDEMAND_URL = 'https://ondemand.us-west-1.saucelabs.com:443/wd/hub'    # noqa
-APP_BUILD = '2024'
-TEST_NAME = 'AppiumConcept'
+SAUCE_USERNAME = ""
+SAUCE_ACCESSKEY = ""
+SAUCE_ONDEMAND_URL = ''    # noqa
+APP_BUILD = ''
+TEST_NAME = ''
 
 
 class DeviceConfiguration:
